@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/DMDavid/DMHud.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'Classes/**/*'
+  s.source_files  = 'DMHud/Classes/**/*'
 
   s.ios.deployment_target = '8.0'
 

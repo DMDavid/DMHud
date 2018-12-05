@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DMHud"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一个简单的toast提示工具"
 
   # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/DMDavid/DMHud.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'DMHud/Classes/**/*'
+  s.source_files  = 'DMHud/Classes/*.{h,m}'
 
   s.ios.deployment_target = '8.0'
 

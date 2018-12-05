@@ -15,7 +15,7 @@
 		DE3C4D2B21B76B5C004B4337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C4D2A21B76B5C004B4337 /* main.m */; };
 		DE3C4D3521B76B5C004B4337 /* DMHudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C4D3421B76B5C004B4337 /* DMHudTests.m */; };
 		DE3C4D4021B76B5C004B4337 /* DMHudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C4D3F21B76B5C004B4337 /* DMHudUITests.m */; };
-		DE3C4D5021B76BC1004B4337 /* DMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C4D4F21B76BC1004B4337 /* DMHud.m */; };
+		DE3C4D5821B7B5E5004B4337 /* DMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C4D5721B7B5E5004B4337 /* DMHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		DE3C4D3B21B76B5C004B4337 /* DMHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3C4D3F21B76B5C004B4337 /* DMHudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMHudUITests.m; sourceTree = "<group>"; };
 		DE3C4D4121B76B5C004B4337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE3C4D4E21B76BC1004B4337 /* DMHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMHud.h; sourceTree = "<group>"; };
-		DE3C4D4F21B76BC1004B4337 /* DMHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMHud.m; sourceTree = "<group>"; };
+		DE3C4D5621B7B5E5004B4337 /* DMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHud.h; sourceTree = "<group>"; };
+		DE3C4D5721B7B5E5004B4337 /* DMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		DE3C4D1A21B76B5A004B4337 /* DMHud */ = {
 			isa = PBXGroup;
 			children = (
-				DE3C4D4D21B76B72004B4337 /* DMHud */,
+				DE3C4D5521B7B5E5004B4337 /* Classes */,
 				DE3C4D1B21B76B5A004B4337 /* AppDelegate.h */,
 				DE3C4D1C21B76B5A004B4337 /* AppDelegate.m */,
 				DE3C4D1E21B76B5A004B4337 /* ViewController.h */,
@@ -136,14 +136,14 @@
 			path = DMHudUITests;
 			sourceTree = "<group>";
 		};
-		DE3C4D4D21B76B72004B4337 /* DMHud */ = {
+		DE3C4D5521B7B5E5004B4337 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE3C4D4E21B76BC1004B4337 /* DMHud.h */,
-				DE3C4D4F21B76BC1004B4337 /* DMHud.m */,
+				DE3C4D5621B7B5E5004B4337 /* DMHud.h */,
+				DE3C4D5721B7B5E5004B4337 /* DMHud.m */,
 			);
-			path = DMHud;
-			sourceTree = "<group>";
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3C4D5021B76BC1004B4337 /* DMHud.m in Sources */,
+				DE3C4D5821B7B5E5004B4337 /* DMHud.m in Sources */,
 				DE3C4D2021B76B5A004B4337 /* ViewController.m in Sources */,
 				DE3C4D2B21B76B5C004B4337 /* main.m in Sources */,
 				DE3C4D1D21B76B5A004B4337 /* AppDelegate.m in Sources */,

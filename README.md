@@ -1,11 +1,11 @@
 # DMHud
 simply hud for iOS 
 like ![Image text](https://github.com/DMDavid/DMHud/blob/master/Example_Image/WechatIMG1.png)
+  
+  
+  
 
-
-
-
-  #HOW TO USE
+  HOW TO USE
   =
   pod 'DMHud'
   =
